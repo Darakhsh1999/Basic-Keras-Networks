@@ -15,3 +15,6 @@ def VAE_data():
     x_test = x_test.reshape(x_test.shape + (1,))
 
     return (x_train, x_test)
+
+
+
